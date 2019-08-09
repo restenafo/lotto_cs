@@ -1,0 +1,78 @@
+﻿body {
+    background: linear-gradient(90deg, rgba(8, 114, 73,1) 10%, rgba(191,191,65,1) 51%, rgba(32,138,112,1) 90%);
+}
+
+
+.titolo {
+    font-size: 66px;
+    font-family: fantasy;
+    letter-spacing: 0.1em;
+    color: darkred;
+}
+
+.sottotitolo {
+    margin:20px;
+    animation: blinkingText 0.8s infinite;
+}
+.istruzioni {
+    font-weight:bold;
+    text-align:center;
+    margin-bottom:50px;
+}
+.centra {
+    text-align:center;
+}
+.centrabtn {
+    width: 100% !important;
+    text-align: center;
+}
+tbody > tr > td {
+    text-align: center;
+    
+}
+
+tbody > tr > td> input {
+    width: 100%;
+}
+
+
+
+@keyframes blinkingText {
+    0% {
+        color: lawngreen;
+    }
+
+    49% {
+        color: transparent;
+    }
+
+    50% {
+        color: transparent;
+    }
+
+    99% {
+        color: lawngreen;
+    }
+
+    100% {
+        color: lawngreen;
+    }
+}
+
+.numeri {
+
+}
+.distanzia {
+    margin-top:20px;
+}
+
+.testoChiaro {
+    color:yellowgreen;
+}
+.ruote {
+    margin:20px;
+}
+
+.ruota {
+    margin-right:20px;
+}
